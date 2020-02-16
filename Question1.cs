@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 
-namespace Question_1
+namespace Assessment
 {
-    class Program
+    class Question1
     {
         static void Main(string[] args)
         {
