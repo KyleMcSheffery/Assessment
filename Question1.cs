@@ -32,7 +32,7 @@ DTM + 182:20090527:102'";
 
             for (int i=0; i<segments.Length; i++)
             {
-                //Trim the segments of segment tags, carriage returns and the ' character
+                //Trim the segments of carriage returns and the ' character
                 segments[i] = segments[i].TrimEnd('\r', '\'');
 
                 //Split into segments using the + delimiter
